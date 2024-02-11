@@ -58,7 +58,7 @@ We develop on the `dev` branch. All new pull requests should be targeted to `dev
 
 You can get the `dev` branch checked out using `git checkout dev`.
 
-Once checked out, install the dependencies using `npm install`, then copy the included  [`docs/example-template.env`][example-env-template] to `my.env` file to `my.env` and edit the file to include your settings (like the Mongo URL). Leave the `NODE_ENV=development` line intact. Once set, run the site using `npm run dev`. This will start Nightscout in the development mode, with different code packaging rules and automatic restarting of the server using nodemon, when you save changed files on disk. The client also hot-reloads new code in, but it's recommended to reload the website after changes due to the way the plugin sandbox works.
+Once checked out, install the dependencies using `npm install`, then copy the included  [`docs/example-template.env`][example-env-template] to `my.env` file and edit the file to include your settings (like the Mongo URL). Leave the `NODE_ENV=development` line intact. Once set, run the site using `npm run dev`. This will start Nightscout in the development mode, with different code packaging rules and automatic restarting of the server using nodemon, when you save changed files on disk. The client also hot-reloads new code in, but it's recommended to reload the website after changes due to the way the plugin sandbox works.
 
 Note the template sets `INSECURE_USE_HTTP` to `true` to enable the site to work over HTTP in local development.
 
@@ -111,7 +111,7 @@ Now that the commits are available on github, you can click on the compare butto
 
 We assume all new Pull Requests are at least smoke tested by the author and all code in the PR actually works. Please include a description of what the features do and rationalize why the changes are needed.
 
-If you add any new NPM module dependencies, you have to rationalize why they are needed - we prefer pull requests that reduce dependencies, not add them. Before releasing a a new version, we check with `npm audit` if our dependencies don't have known security issues. 
+If you add any new NPM module dependencies, you have to rationalize why they are needed - we prefer pull requests that reduce dependencies, not add them. Before releasing a a new version, we check with `npm audit` if our dependencies don't have known security issues.
 
 When adding new features that add configuration options, please ensure the `README` document is amended with information on the new configuration.
 
@@ -150,8 +150,8 @@ Every commit is tested by travis.  We encourage adding tests to validate your de
 * Create tests for your new code as well as the old code.  We are aiming for a full test coverage.
 * If you're going to be working in old code that needs lots of reformatting, consider doing it as a separate PR.
 * If you can find others to help test your PR, it will help get them merged in sooner.
- 
-## List of Contributors  
+
+## List of Contributors
 
 We welcome new contributors. We do not only need core contributors. Regular or one time contributors are welcomed as well.
 Also if you can't code, it's possible to contribute by improving the documentation or by translating Nightscout in your own language
@@ -164,9 +164,9 @@ Also if you can't code, it's possible to contribute by improving the documentati
 [@danamlewis]: https://github.com/danamlewis
 [@diabetlum]: https://github.com/diabetlum
 [@herzogmedia]: https://github.com/herzogmedia
-[@jamieowendexcom ]: https://github.com/jamieowendexcom 
+[@jamieowendexcom ]: https://github.com/jamieowendexcom
 [@janrpn]: https://github.com/janrpn
-[@jasoncalabrese]: https://github.com/jasoncalabrese 
+[@jasoncalabrese]: https://github.com/jasoncalabrese
 [@jizhongwen]: https://github.com/jizhongwen
 [@jpcunningh]: https://github.com/jpcunningh
 [@jweismann]: https://github.com/jweismann
@@ -189,7 +189,7 @@ Also if you can't code, it's possible to contribute by improving the documentati
 
 | Contribution area                     | List of contributors |
 | ------------------------------------- | ---------------------------------- |
-| Core developers:                      | [@jasoncalabrese] [@MilosKozak] [@PieterGit] [@sulkaharo] | 
+| Core developers:                      | [@jasoncalabrese] [@MilosKozak] [@PieterGit] [@sulkaharo] |
 | Former Core developers: (not active): | [@bewest] |
 | Contributing developers:              | [@jpcunningh] [@scottleibrand] [@komarserjio] [@jweismann] |
 | Issue/Pull request coordination:      | Please volunteer |
@@ -215,7 +215,7 @@ Also if you can't code, it's possible to contribute by improving the documentati
 | [`direction` (BG Direction)](README.md#direction-bg-direction)| Please volunteer | Please volunteer |
 | [`errorcodes` (CGM Error Codes)](README.md#errorcodes-cgm-error-codes)| Please volunteer | Please volunteer |
 | [`food` (Custom Foods)](README.md#food-custom-foods)| Please volunteer | Please volunteer |
-| [`googlehome` (Google Home/DialogFlow)](README.md#googlehome-google-homedialogflow)| [@mdomox] [@rickfriele] [@inventor96] | [@mcdafydd] [@oteroos] [@jamieowendexcom] | 
+| [`googlehome` (Google Home/DialogFlow)](README.md#googlehome-google-homedialogflow)| [@mdomox] [@rickfriele] [@inventor96] | [@mcdafydd] [@oteroos] [@jamieowendexcom] |
 | [`iage` (Insulin Age)](README.md#iage-insulin-age)| Please volunteer | Please volunteer |
 | [`iob` (Insulin-on-Board)](README.md#iob-insulin-on-board)| Please volunteer | Please volunteer |
 | [`loop` (Loop)](README.md#loop-loop)| Please volunteer | Please volunteer |
